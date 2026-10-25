@@ -1,0 +1,36 @@
+/* src/components/Footer.css */
+
+.footer {
+  background-color: #222;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1.5rem 2.5rem;
+  font-size: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+.footer-left p {
+  margin: 4px 0;
+  line-height: 1.6;
+}
+
+.footer-left p span {
+  font-weight: 500;
+  color: #9effc0;
+}
+
+.footer-right {
+  text-align: right;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ff6868;
+}
+
+.footer-right strong {
+  color: #c6c3ff;
+  font-weight: bold;
+}

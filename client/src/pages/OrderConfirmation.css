@@ -1,0 +1,63 @@
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  min-height: 80vh;
+}
+
+.confirmation-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2e7d32;
+  text-align: center;
+}
+
+.confirmation-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-subtitle {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.confirmation-total {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+.confirmation-btn {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.confirmation-btn:hover {
+  background-color: #388e3c;
+}
+
+.confirmation-card ul {
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.confirmation-card li {
+  margin-bottom: 0.5rem;
+}
